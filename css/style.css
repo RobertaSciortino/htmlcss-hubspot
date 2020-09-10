@@ -14,6 +14,8 @@ header {
     height: 80px;
     border-top: 1px solid #7C98B6;
     border-bottom: 1px solid #7C98B6;
+    background-color: #F5F8FA;
+
 }
 
 div.container {
@@ -23,7 +25,6 @@ div.container {
     padding: 20px 0;
     position: relative;
     font-size: 16px;
-    font-weight: bold;
 }
 
 .language li {
@@ -82,20 +83,81 @@ div.container {
 /* __________fine header___________ */
 
 
-nav, section {
-    height: 100px;
-}
+/* __________inizio navbar___________ */
 
-header {
-    background-color: #F5F8FA;
-}
 
-nav {
+#navbar {
     background-color: #fff;
 }
 
-.info {
+#navbar, section {
+    height: 100px;
+}
+
+nav div.container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0;
+    position: relative;
+    }
+
+a.logo, img {
+    width: 180px;
+    height: 100%;
+    padding: 0 5px;
+}
+
+div.menu {
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 40px 0;
+}
+
+.menu li {
+    display: inline-block;
+    }
+
+
+.menu a {
+    text-decoration: none;
+    color: #33475B;
+    padding: 20px;
+}
+
+/* __________fine navbar___________ */
+
+/* __________inizio section__________ */
+
+section {
     background-color: #425B76;
+}
+
+section div.container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    position: relative;
+    }
+
+.info {
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px 30px;
+    line-height: 30px;
+}
+
+.info span {
+    text-transform: uppercase;
+}
+
+.info a {
+    font-weight: bold;
+    color: #FFF;
 }
 
 
