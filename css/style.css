@@ -4,8 +4,85 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+}
 
-header, nav, section {
+/* __________inizio header____________ */
+
+header {
+    height: 80px;
+    border-top: 1px solid #7C98B6;
+    border-bottom: 1px solid #7C98B6;
+}
+
+div.container {
+    width: 1000px;
+    height: 100%;
+    margin: auto;
+    padding: 20px 0;
+    position: relative;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.language li {
+    display: inline-block;
+    padding: 10px;
+    }
+
+
+.language a {
+    text-decoration: none;
+    color: #33475B;
+    padding: 20px;
+}
+
+.search {
+    padding: 10px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.search li {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.search a {
+    text-decoration: none;
+    color: #33475B;
+    padding: 20px;
+}
+
+.search i {
+    color: #45BBCE;
+}
+
+#log_in {
+    border: 1px solid #FF7A59;
+    background-color: #FFF;
+    color: #FF7A59;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+#free {
+    background-color: #FF7A59;
+    color: #FFF;
+    padding: 15px 25px;
+    border-radius: 3px;
+}
+
+#log_in, #free {
+    font-size: 12px;
+}
+
+/* __________fine header___________ */
+
+
+nav, section {
     height: 100px;
 }
 
@@ -21,14 +98,9 @@ nav {
     background-color: #425B76;
 }
 
-div.container {
-    background-color: white;
-    width: 1200px;
-    height: 100%;
-    margin: auto;
-}
 
-.introduction {
+
+.jumbotron {
     background-color: #FFF3EE;
     height: 600px;
 }
