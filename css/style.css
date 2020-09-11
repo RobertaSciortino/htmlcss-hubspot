@@ -18,13 +18,23 @@ header {
 
 }
 
-div.container {
+.container {
     width: 1000px;
     height: 100%;
     margin: auto;
-    padding: 20px 0;
-    position: relative;
     font-size: 16px;
+}
+
+header .container {
+    clear: both;
+    content:"";
+    display: table;
+}
+
+.language {
+    float: left;
+    width: 50%;
+    padding: 20px 0;
 }
 
 .language li {
@@ -40,15 +50,18 @@ div.container {
 }
 
 .search {
-    padding: 10px 0;
-    position: absolute;
-    right: 0;
-    top: 0;
+    float: right;
+    width: 50%;
+    padding: 11px 0;
+}
+
+.search ul {
+    float: right;
 }
 
 .search li {
     display: inline-block;
-    padding: 20px 10px;
+    padding: 5px;
 }
 
 .search a {
@@ -61,7 +74,7 @@ div.container {
     color: #45BBCE;
 }
 
-#log_in {
+.search .log_in {
     border: 1px solid #FF7A59;
     background-color: #FFF;
     color: #FF7A59;
@@ -69,14 +82,16 @@ div.container {
     border-radius: 3px;
 }
 
-#free {
+.search .free {
     background-color: #FF7A59;
     color: #FFF;
     padding: 15px 25px;
     border-radius: 3px;
+    font-size: 12px;
+    border: 1px solid #FF7A59;
 }
 
-#log_in, #free {
+.log_in, .free {
     font-size: 12px;
 }
 
@@ -88,34 +103,39 @@ div.container {
 
 #navbar {
     background-color: #fff;
-}
-
-#navbar, section {
     height: 100px;
+    width: 1000px;
+    margin: auto;
 }
 
-nav div.container {
-    width: 1000px;
-    height: 100%;
-    margin: auto;
-    padding: 20px 0;
-    position: relative;
+nav .container {
+    clear: both;
+    content: "";
+    display: table;
     }
 
-a.logo, img {
+.logo {
     width: 180px;
     height: 100%;
-    padding: 0 5px;
+    padding-top: 10px;
+    float: left;
 }
 
-div.menu {
+a img {
+    width: 180px;
+    height: 70px;
+}
+
+.menu {
     font-size: 16px;
     font-weight: bold;
-    position: absolute;
-    right: 0;
-    top: 0;
     padding: 40px 0;
+    float: right;
 }
+
+/* .menu ul {
+    float: right;
+} */
 
 .menu li {
     display: inline-block;
@@ -130,13 +150,18 @@ div.menu {
 
 /* __________fine navbar___________ */
 
-/* __________inizio section__________ */
+/* __________inizio info_banner__________ */
 
-section {
+.info_banner {
     background-color: #425B76;
+    height: 100px;
+    font-size: 16px;
+    color: #FFF;
+    padding: 10px 30px;
+    line-height: 30px;
 }
 
-section div.container {
+.info_banner .container {
     width: 1000px;
     height: 100%;
     margin: auto;
@@ -144,25 +169,65 @@ section div.container {
     position: relative;
     }
 
-.info {
-    font-size: 16px;
-    color: #FFF;
-    padding: 10px 30px;
-    line-height: 30px;
-}
 
-.info span {
+.info_banner span {
     text-transform: uppercase;
 }
 
-.info a {
+.info_banner a {
     font-weight: bold;
     color: #FFF;
 }
 
-
+/* _________inizio jumbotron_________ */
 
 .jumbotron {
     background-color: #FFF3EE;
     height: 600px;
+    color: #33475B;
 }
+
+.big_title {
+    width: 500px;
+    margin: 50px 500px 0 0;
+    padding: 10px;
+}
+
+.big_title h1, .big_title p {
+    padding: 10px;
+}
+
+.big_title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.big_title p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.get_free {
+    width: 250px;
+    margin-right: 750px;
+    padding: 10px;
+}
+
+.free {
+    background-color: #FF7A59;
+    color: #FFF;
+    padding: 25px 40px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #FF7A59;
+}
+
+.get_free p {
+    font-size: 14px;
+    padding: 20px 0;
+    line-height: 20px;
+}
+
+/* __________fine jumbotron_________ */

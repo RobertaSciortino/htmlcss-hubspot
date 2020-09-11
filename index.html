@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
         <link rel="stylesheet" href="./css/style.css">
         <title>HubSpot</title>
@@ -31,14 +31,14 @@
                                 </a>
                             </li>
                             <li>
-                                <a id="log_in" href="#">
+                                <button class="log_in" type="button" name="button">
                                     Log in
-                                </a>
+                                </button>
                             </li>
                             <li>
-                                <a id="free" href="#">
+                                <button class="free" type="button" name="button">
                                     Get HubSpot free
-                                </a>
+                                </button>
                             </li>
                         </ul>
 
@@ -51,10 +51,11 @@
 
             <nav id="navbar">
                 <div class="container">
-                    <a class="logo "href="#">
-                        <img src="https://onlinedrea.com/wp-content/uploads/2019/07/logo-hubspot-png-rethink-400.png" alt="">
-                    </a>
-
+                    <div class="logo">
+                        <a href="#">
+                            <img src="https://onlinedrea.com/wp-content/uploads/2019/07/logo-hubspot-png-rethink-400.png" alt="">
+                        </a>
+                    </div>
                     <div class="menu">
                         <ul>
                             <li>
@@ -78,9 +79,9 @@
                 </div>
             </nav>
 
-            <section>
+            <section class="info_banner">
                 <div class="container">
-                    <p class="info">
+                    <p>
                         Join us for the premiere of the
                         <span>inbound 2020</span>
                         founders’ keynote and product spotlight on
@@ -94,9 +95,24 @@
 
             <section class="jumbotron">
                 <div class="container">
-
+                    <div class="big_title">
+                        <h1>There’s a better way to grow.</h1>
+                        <p>
+                            Marketing, sales, and service software that helps your business grow without compromise. Because “good for the business” should also mean “good for the customer.”
+                        </p>
+                    </div>
+                    <div class="get_free">
+                        <button class="free" type="button" name="button">
+                            Get HubSpot free
+                        </button>
+                        <p>
+                            Get started with FREE tools, and upgrade as you grow.
+                        </p>
+                    </div>
                 </div>
             </section>
+
+
         </div>
     </body>
 </html>
