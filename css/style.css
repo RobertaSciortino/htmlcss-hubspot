@@ -123,7 +123,7 @@ nav .container {
 
 a img {
     width: 180px;
-    height: 70px;
+    height: 68px;
 }
 
 .menu {
@@ -154,7 +154,7 @@ a img {
 
 .info_banner {
     background-color: #425B76;
-    height: 100px;
+    /* height: 100px; */
     font-size: 16px;
     color: #FFF;
     padding: 10px 30px;
@@ -183,14 +183,13 @@ a img {
 
 .jumbotron {
     background-color: #FFF3EE;
-    height: 600px;
     color: #33475B;
 }
 
 .big_title {
     width: 500px;
-    margin: 50px 500px 0 0;
-    padding: 10px;
+    margin-right: 500px;
+    padding: 80px 10px 10px 10px;
 }
 
 .big_title h1, .big_title p {
@@ -211,7 +210,7 @@ a img {
 .get_free {
     width: 250px;
     margin-right: 750px;
-    padding: 10px;
+    padding: 0 20px 80px 20px;
 }
 
 .free {
@@ -231,3 +230,93 @@ a img {
 }
 
 /* __________fine jumbotron_________ */
+
+/* __________iniziocard_box_________ */
+
+.card_box {
+    background-color: #F5F8FA;
+    padding: 30px;
+    color: #33475B;
+    }
+
+.card_box .container {
+    max-width: 100%;
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.card {
+    max-width: 320px;
+    height: 400px;
+    border: 1px solid black;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #FFF;
+    padding: 40px 20px;
+    border-radius: 3px;
+}
+
+.card:first-child {
+    background-color: #F5F8FA;
+    border: 0;
+    padding: 0;
+}
+
+.card:first-child h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+.card:first-child p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description h3 {
+    display: inline;
+    font-size: 25px;
+}
+
+.description p {
+    font-size: 14px;
+    border-bottom: 1px solid #999;
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.description h3, .description p {
+    padding-bottom: 20px;
+}
+
+.features p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.features li {
+    list-style-type: none;
+    font-size: 12px;
+    padding: 5px;
+}
+
+.features button {
+    background-color: #FF7A59;
+    color: #FFF;
+    padding: 20px 80px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #FF7A59;
+    margin-top: 10px;
+}
+
+.card i {
+    color: #FF7A59;
+}
