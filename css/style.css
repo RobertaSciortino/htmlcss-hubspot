@@ -196,10 +196,10 @@ a img {
     padding: 10px;
 }
 
-.big_title h1 {
+ h1 {
     font-size: 50px;
     font-weight: 700;
-    line-height: 60px;
+    /* line-height: 60px; */
 }
 
 .big_title p {
@@ -338,3 +338,92 @@ a img {
     top: 5%;
     left: 90%;
 }
+
+/* __________fine __________iniziocard_box_________ */
+
+/* __________inizio statistics_box_________________ */
+
+.statistics_box {
+    background-image: linear-gradient(45deg,#00a4bd,#00bda5);
+    color: #FFF;
+    text-align: center;
+}
+
+.community h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+.community p {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.community {
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.row-top, .row-bottom {
+    content: "";
+    clear: both;
+    display: table;
+    margin: auto;
+    max-width: 100%;
+}
+
+.row-top {
+    border-bottom: 1px solid #FFF;
+}
+
+.cell {
+    float: left;
+    min-width: 247px;
+    min-height: 247px;
+    padding: 30px;
+}
+
+.cell:not(:last-child) {
+    border-right: 1px solid #FFF;
+}
+
+.row-top .logo-cell {
+    padding-top: 30px;
+    margin-top: 10px;
+}
+
+.cell i {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.cell i, img {
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.cell h1::after {
+    content: '+';
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    vertical-align: middle;
+}
+
+.cell:last-child {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.cell p {
+    font-size: 14px;
+    line-height: 3em;
+}
+
+.statistics {
+    padding-bottom: 100px;
+}
+
+/* __________fine statistics_box_________________ */
