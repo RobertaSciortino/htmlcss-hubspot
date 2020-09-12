@@ -249,13 +249,16 @@ a img {
 .card {
     max-width: 320px;
     height: 400px;
-    border: 1px solid black;
     float: left;
     margin-right: 10px;
     margin-bottom: 10px;
     background-color: #FFF;
     padding: 40px 20px;
     border-radius: 3px;
+}
+
+.card:not(:first-child) {
+    box-shadow: 0px 0px 10px 7px rgba(50,50,50,0.1);
 }
 
 .card:first-child {
@@ -382,8 +385,15 @@ a img {
 .cell {
     float: left;
     min-width: 247px;
-    min-height: 247px;
-    padding: 30px;
+    height: 200px;
+}
+
+.row-top .cell {
+    padding: 0 30px;
+}
+
+.row-bottom .cell {
+    padding: 30px 0;
 }
 
 .cell:not(:last-child) {
@@ -404,6 +414,7 @@ a img {
     height: 40px;
     margin-bottom: 10px;
 }
+
 
 .cell h1::after {
     content: '+';
@@ -427,3 +438,111 @@ a img {
 }
 
 /* __________fine statistics_box_________________ */
+
+/* _________inizio info customers________________ */
+
+.info-customers {
+    color: #33475B;
+}
+
+.info-customers .row-top {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.customers, .companies {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.customers {
+    width: 40%;
+}
+
+.companies {
+    width: 60%;
+    padding-left: 35px;
+}
+
+.company {
+    width: 120px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: left;
+    margin: 10px;
+}
+
+.customers  h2, .start h2 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+    padding-bottom: 10px;
+}
+
+.customers p, .start p:first-of-type {
+    font-size: 18px;
+    line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#atlassian {
+    background-image:url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png);
+    }
+
+#doordash {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png);
+}
+
+#g2crowd {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png);
+}
+
+#surveymonkey {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg);
+}
+
+#subaru {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png);
+}
+
+#wistia {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png);
+}
+#classpass {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png);
+}
+#vmware {
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png);
+}
+
+
+.start, .photo {
+    width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.start button {
+    background-color: #FF7A59;
+    color: #FFF;
+    padding: 30px 40px;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FF7A59;
+    margin-top: 10px;
+}
+
+.start p:last-of-type {
+    font-size: 14px;
+    padding: 20px 0;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.photo img {
+    height: 500px;
+    float: right;
+}
