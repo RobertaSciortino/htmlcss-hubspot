@@ -101,7 +101,7 @@ header .container {
 /* __________inizio navbar___________ */
 
 
-#navbar {
+nav {
     background-color: #fff;
     height: 100px;
     width: 1000px;
@@ -487,6 +487,10 @@ a img {
     font-family: 'Montserrat', sans-serif;
 }
 
+.info-customers .row-bottom {
+    padding-bottom: 100px;
+}
+
 #atlassian {
     background-image:url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png);
     }
@@ -545,4 +549,59 @@ a img {
 .photo img {
     height: 500px;
     float: right;
+}
+
+/* __________fine info-customers________________ */
+
+/* __________inizio footer______________________ */
+
+footer {
+    background-color: #33475B;
+}
+
+.row-navbar {
+    clear: both;
+    content: "";
+    display: table;
+    padding-top: 100px;
+}
+
+.navbar {
+    width: 248px;
+    /* height: 400px; */
+    float: left;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+footer li:not(:first-child), .navbar button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+.navbar button {
+    background-color: #FFF;
+    color: #33475B;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+    border: 1px solid #FFF;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.icons {
+    font-size: 20px;
+}
+
+.icons a:not(:last-child) {
+    margin-right: 15px;
 }
