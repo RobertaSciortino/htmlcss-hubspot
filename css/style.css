@@ -15,7 +15,10 @@ header {
     border-top: 1px solid #7C98B6;
     border-bottom: 1px solid #7C98B6;
     background-color: #F5F8FA;
-
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -103,9 +106,10 @@ header .container {
 
 nav {
     background-color: #fff;
-    height: 100px;
+    height: 180px;
     width: 1000px;
     margin: auto;
+    padding-top: 80px;
 }
 
 nav .container {
@@ -133,13 +137,11 @@ a img {
     float: right;
 }
 
-/* .menu ul {
-    float: right;
-} */
+
 
 .menu li {
     display: inline-block;
-    }
+}
 
 
 .menu a {
