@@ -36,14 +36,15 @@ header .container {
 
 .language {
     float: left;
-    width: 50%;
+    width: 500px;
     padding: 20px 0;
 }
 
 .language li {
     display: inline-block;
     padding: 10px;
-    }
+    position: relative;
+}
 
 
 .language a {
@@ -52,9 +53,39 @@ header .container {
     padding: 20px;
 }
 
+
+.drop-menu {
+  display: none;
+  position: absolute;
+  background-color: #FFF;
+  width: 125px;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #7C98B6;
+  border-radius: 2px;
+  box-shadow: 0px 0px 10px 7px rgba(50,50,50,0.05);
+  z-index: 1;
+}
+
+.drop-menu a {
+  color: #33475B;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  position: relative;
+}
+
+.drop-menu a:hover {
+    background-color: #E5F5F8;
+}
+
+.language:hover .drop-menu{
+    display: block;
+}
+
 .search {
     float: right;
-    width: 50%;
+    width: 500px;
     padding: 11px 0;
 }
 
