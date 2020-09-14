@@ -311,7 +311,7 @@ a img {
     padding: 5px;
 }
 
-.features button {
+.features .free {
     background-color: #FF7A59;
     color: #FFF;
     padding: 20px 80px;
@@ -668,6 +668,8 @@ footer li {
     margin-right: 20px;
 }
 
+/* __________inizio chatbot_________ */
+
 .chatbot {
     width: 220px;
     position: fixed;
@@ -721,4 +723,23 @@ footer li {
     padding-left: 12px;
     box-shadow: 0px 0px 10px 7px rgba(50,50,50,0.1);
     float: right;
-    }
+}
+
+/* __________fine chatbot_________ */
+
+/* ___________aggiunta hover in button___________ */
+
+.log_in:hover {
+    background-color: #FFF1EE;
+    cursor: pointer;
+}
+
+.free:hover {
+    background-color: #FFBCAC;
+    cursor: pointer;
+}
+
+.contact:hover {
+    background-color: #EAF0F6;
+    cursor: pointer;
+}
