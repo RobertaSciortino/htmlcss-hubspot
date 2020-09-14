@@ -201,12 +201,13 @@ a img {
  h1 {
     font-size: 50px;
     font-weight: 700;
-    /* line-height: 60px; */
 }
 
 .big_title p {
     font-size: 18px;
     line-height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 .get_free {
@@ -229,6 +230,8 @@ a img {
     font-size: 14px;
     padding: 20px 0;
     line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
 
 /* __________fine jumbotron_________ */
@@ -417,12 +420,16 @@ a img {
     margin-bottom: 10px;
 }
 
+.info-cell h1 {
+    display: inline-block;
+}
 
-.cell h1::after {
-    content: '+';
+.info-cell span{
+    display: inline-block;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
-    vertical-align: middle;
+    vertical-align: 10px;
+    text-align: left;
 }
 
 .cell:last-child {
