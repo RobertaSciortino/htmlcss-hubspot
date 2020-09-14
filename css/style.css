@@ -669,6 +669,47 @@ footer li {
 }
 
 .chatbot {
+    width: 220px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.chatbot a {
+    text-decoration: none;
+}
+
+.message {
+    background-color: #FFF;
+    color: #33475B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 7px rgba(50,50,50,0.1);
+    position: relative;
+}
+
+.message p {
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.message i {
+    color: #FFC83D;
+    font-size: 18px;
+}
+
+.robot-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 90px;
+    cursor: pointer;
+}
+
+.chat-icon {
     width: 70px;
     height: 70px;
     background-color: #425B76;
@@ -679,7 +720,5 @@ footer li {
     padding-top: 12px;
     padding-left: 12px;
     box-shadow: 0px 0px 10px 7px rgba(50,50,50,0.1);
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-}
+    float: right;
+    }
