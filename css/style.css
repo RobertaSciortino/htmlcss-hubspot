@@ -8,7 +8,7 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
-/* __________inizio header____________ */
+/* ----------inizio header------------ */
 
 header {
     height: 80px;
@@ -126,7 +126,7 @@ header .container {
     color: #45BBCE;
 }
 
-.search .log_in {
+.search .log-in {
     border: 1px solid #FF7A59;
     background-color: #FFF;
     color: #FF7A59;
@@ -143,14 +143,14 @@ header .container {
     border: 1px solid #FF7A59;
 }
 
-.log_in, .free {
+.log-in, .free {
     font-size: 12px;
 }
 
-/* __________fine header___________ */
+/* ----------fine header----------- */
 
 
-/* __________inizio navbar___________ */
+/* ----------inizio navbar----------- */
 
 
 nav {
@@ -199,11 +199,11 @@ a img {
     padding: 20px;
 }
 
-/* __________fine navbar___________ */
+/* ----------fine navbar----------- */
 
-/* __________inizio info_banner__________ */
+/* ----------inizio info-banner---------- */
 
-.info_banner {
+.info-banner {
     background-color: #425B76;
     /* height: 100px; */
     font-size: 16px;
@@ -212,7 +212,7 @@ a img {
     line-height: 30px;
 }
 
-.info_banner .container {
+.info-banner .container {
     width: 1000px;
     height: 100%;
     margin: auto;
@@ -221,29 +221,29 @@ a img {
     }
 
 
-.info_banner span {
+.info-banner span {
     text-transform: uppercase;
 }
 
-.info_banner a {
+.info-banner a {
     font-weight: bold;
     color: #FFF;
 }
 
-/* _________inizio jumbotron_________ */
+/* ---------inizio jumbotron--------- */
 
 .jumbotron {
     background-color: #FFF3EE;
     color: #33475B;
 }
 
-.big_title {
+.big-title {
     width: 500px;
     margin-right: 500px;
     padding: 80px 10px 10px 10px;
 }
 
-.big_title h1, .big_title p {
+.big-title h1, .big-title p {
     padding: 10px;
 }
 
@@ -252,14 +252,14 @@ a img {
     font-weight: 700;
 }
 
-.big_title p {
+.big-title p {
     font-size: 18px;
     line-height: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
-.get_free {
+.get-free {
     width: 250px;
     margin-right: 750px;
     padding: 0 20px 80px 20px;
@@ -275,7 +275,7 @@ a img {
     border: 1px solid #FF7A59;
 }
 
-.get_free p {
+.get-free p {
     font-size: 14px;
     padding: 20px 0;
     line-height: 20px;
@@ -283,18 +283,18 @@ a img {
     font-weight: 300;
 }
 
-/* __________fine jumbotron_________ */
+/* ----------fine jumbotron--------- */
 
-/* __________iniziocard_box_________ */
+/* ----------iniziocard-box--------- */
 
-.card_box {
+.card-box {
     background-color: #F5F8FA;
-    padding: 30px;
+    /* padding: 30px; */
     color: #33475B;
     }
 
-.card_box .container {
-    max-width: 100%;
+.card-box .container {
+    padding: 100px 0px 100px 10px;
     clear: both;
     content: "";
     display: table;
@@ -318,7 +318,7 @@ a img {
 .card:first-child {
     background-color: #F5F8FA;
     border: 0;
-    padding: 0;
+    padding: 0 10px 0 0;
 }
 
 .card:first-child h2 {
@@ -396,11 +396,11 @@ a img {
     left: 90%;
 }
 
-/* __________fine __________iniziocard_box_________ */
+/* ----------fine ----------iniziocard-box--------- */
 
-/* __________inizio statistics_box_________________ */
+/* ----------inizio statistics-box----------------- */
 
-.statistics_box {
+.statistics-box {
     background-image: linear-gradient(45deg,#00a4bd,#00bda5);
     color: #FFF;
     text-align: center;
@@ -495,9 +495,9 @@ a img {
     padding-bottom: 100px;
 }
 
-/* __________fine statistics_box_________________ */
+/* ----------fine statistics-box----------------- */
 
-/* _________inizio info customers________________ */
+/* ---------inizio info customers---------------- */
 
 .info-customers {
     color: #33475B;
@@ -550,33 +550,33 @@ a img {
 }
 
 #atlassian {
-    background-image:url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Atlassian-horizontal-blue@2x.png);
+    background-image:url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/Atlassian-horizontal-blue@2x.png);
     }
 
 #doordash {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/doordash_owler_20181011_194113_original@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/doordash-owler-20181011-194113-original@2x.png);
 }
 
 #g2crowd {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/g2crowd-logo@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/g2crowd-logo@2x.png);
 }
 
 #surveymonkey {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical-Sabaeus-RGB.svg);
 }
 
 #subaru {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/Subaru-Logo-v2-186x63@2x.png);
 }
 
 #wistia {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Wistia_logo@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/Wistia-logo@2x.png);
 }
 #classpass {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/Classpass-logo@2x.png);
 }
 #vmware {
-    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/VMware_logo_gry_RGB_300dpi@2x.png);
+    background-image: url(https://www.hubspot.com/hubfs/assets/hubspot.com/home/home-page-logos-June-2019/VMware-logo-gry-RGB-300dpi@2x.png);
 }
 
 
@@ -609,9 +609,9 @@ a img {
     float: right;
 }
 
-/* __________fine info-customers________________ */
+/* ----------fine info-customers---------------- */
 
-/* __________inizio footer______________________ */
+/* ----------inizio footer---------------------- */
 
 footer {
     background-color: #33475B;
@@ -724,7 +724,7 @@ footer li {
     margin-right: 20px;
 }
 
-/* __________inizio chatbot_________ */
+/* ----------inizio chatbot--------- */
 
 .chatbot {
     width: 220px;
@@ -781,11 +781,11 @@ footer li {
     float: right;
 }
 
-/* __________fine chatbot_________ */
+/* ----------fine chatbot--------- */
 
-/* ___________aggiunta hover in button___________ */
+/* -----------aggiunta hover in button----------- */
 
-.log_in:hover {
+.log-in:hover {
     background-color: #FFF1EE;
     cursor: pointer;
 }
