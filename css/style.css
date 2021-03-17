@@ -235,6 +235,46 @@ a img {
 .jumbotron {
     background-color: #FFF3EE;
     color: #33475B;
+    position: relative;
+}
+
+.homepage-hero__svg {
+  position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 70%;
+    z-index: 1;
+}
+
+.homepage-hero__img::before {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #afebe4;
+    height: 59px;
+    width: 100%;
+    border-top: 3px solid #33475b;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+.homepage-hero__img::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background: #00a48d;
+    height: 112px;
+    width: calc(50vw - 390px);
+    border-top: 3px solid #33475b;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+}
+
+img.homepage-hero__svg {
+  width: 100%;
+  margin: 0;
 }
 
 .big-title {
